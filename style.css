@@ -5,7 +5,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: url('../Images/Bg5.jpg') no-repeat center center fixed;
+  background: url('/Images/Bg5.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -21,8 +21,8 @@ body {
 
 .banner .slider{
     position: absolute;
-    width: 250px;
-    height: 400px;
+    width: 130px;
+    height: 200px;
     top: 10%;
     left: calc(50% - 100px);
     transform-style: preserve-3d;
@@ -74,7 +74,7 @@ body {
 
 .banner .content h1{
     font-family: "Noto Sans JP", sans-serif;
-    font-size: 16rem;
+    font-size: 6rem;
     line-height: .1em;
     color: hsl(342, 99%, 63%);
     position: relative;
@@ -92,9 +92,9 @@ body {
 
 .banner .content .author{
      font-family: "Zalando Sans Expanded", sans-serif;
-    text-align: right;
+    text-align: center;
     max-width: 140px;
-    font-size: 80px;
+    font-size: 5px;
     color: #3F5EFB;
 
 }
